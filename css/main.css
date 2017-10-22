@@ -1,0 +1,44 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    width: 210px;
+}
+ul{
+    /*outline: 1px solid black;*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+li {
+    /*outline: 1px solid black;*/
+    background: #e7e7e5;
+}
+a:hover {
+    background: #e0e0d1;
+}
+a:active {
+    background: #333;
+    color: #fff;
+}
+a {
+    /*outline: 1px solid black;*/
+    display: block;
+    text-decoration: none;
+    color: black; 
+    padding: 10px;
+    padding-left: 20px;     
+}
+ul li:first-child {
+    background: #ffc107;
+}
+ul li:first-child a{
+   color: white;
+}
+ul li:first-child a:hover{
+    color: black;
+}
+ul li:first-child a:active {
+    color: white;
+ }
