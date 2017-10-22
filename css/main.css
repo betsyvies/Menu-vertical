@@ -1,9 +1,13 @@
+/*Primero declaramos el tipo de letra que usaremos para la pagina*/
 body {
     font-family: 'Raleway', sans-serif;
 }
+/*Al contenedor de nuestro menu le damos un ancho*/
 nav {
     width: 210px;
 }
+/*Al ser <ul> a etiqueta padre de nuestra lista cambiara los valores de margin
+y padding de sus hijos, así como tambien el estilo de lista*/
 ul{
     /*outline: 1px solid black;*/
     list-style: none;
@@ -11,17 +15,22 @@ ul{
     padding: 0;
     line-height: 20px;
 }
+/*La etiqueta <li> nos ayudará a darle el color de fondo a su hijo la etiqueta <a>*/
 li {
     /*outline: 1px solid black;*/
     background: #e7e7e5;
 }
+/*Utilizaremos :hover para cambiar el color del backgraund cuando pasa el cursor*/
 a:hover {
     background: #e0e0d1;
 }
+/*Utilizaremos :active para cambiar el color del backgraund cuando hacemos click*/
 a:active {
     background: #333;
     color: #fff;
 }
+/*Usaremos la etiqueta <a> para cambiar la decoracion del texto y el tipo de elemento
+ que es, tambien le daremos color al texto y el relleno que necesite*/
 a {
     /*outline: 1px solid black;*/
     display: block;
@@ -30,15 +39,19 @@ a {
     padding: 10px;
     padding-left: 20px;     
 }
+/*Con el pseudoclase :first-child le daremos color de fondo solo al primer hijo de la etiueta <li>*/
 ul li:first-child {
     background: #ffc107;
 }
+/*Con el pseudoclase :first-child le daremos color al texto de la etiqueta <a>*/
 ul li:first-child a{
    color: white;
 }
+/*Con el pseudoclase :first-child le daremos color al texto que saldrá al pasar el puntero por ahí*/
 ul li:first-child a:hover{
     color: black;
 }
+/*Con el pseudoclase :first-child le daremos color al texto que saldrá al hacer click con el puntero*/
 ul li:first-child a:active {
     color: white;
  }
