@@ -22,15 +22,15 @@ El objetivo de esta pagina es crear un vertical menu, esto lo haremos con la pro
 
 ## Css
 
-- uso de nav: utilizamos la etiqueta nav para indicar al navegador que estamos haciendo un menú.
+- uso de nav: para indicar al navegador que estamos haciendo un menú y que es un contenedor padre.
 
-- uso de ul: al usarz la etiqueta ul estaremos creando una lista desordenada, que contendra a varios li.
+- uso de ul: para crear una lista desordenada, que cambiará el tipo de flujo.
 
-- uso de li: dentro de li(padres), contendremos a las etiquetas "a".
+- uso de li: para contener a las etiquetas "a" y darles el tamaño, la posicion y el alineado de texto.
 
-- uso de a: utilizamos la etiqueta a para linkear.
+- uso de a: para linkear y darle estilo al texto.
 
-- uso de pseudoclases: usaremos dos pseudoclases hover y active, la primera nos serviran para cambiar el color del backgraund cuando pasa el cursor y la segunda para cambiar el color del backgraund cuando hacemos click.
+- uso de pseudoclases: usaremos dos pseudoclases hover y active, la primera nos servira para cambiar el color del backgraund cuando pasa el cursor y la segunda para cambiar el color del backgraund cuando hacemos click.
 
 ## Imagen
 ![Vertical menu](assets/images/Vertical-menu.png)
