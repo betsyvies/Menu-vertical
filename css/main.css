@@ -6,7 +6,7 @@ body {
 nav {
     width: 210px;
 }
-/*Al ser <ul> a etiqueta padre de nuestra lista cambiara los valores de margin
+/*Al ser <ul> la etiqueta padre de la lista cambiará los valores de margin
 y padding de sus hijos, así como tambien el estilo de lista*/
 ul{
     /*outline: 1px solid black;*/
@@ -15,16 +15,16 @@ ul{
     padding: 0;
     line-height: 20px;
 }
-/*La etiqueta <li> nos ayudará a darle el color de fondo a su hijo la etiqueta <a>*/
+/*La etiqueta <li> nos ayudará a darle el color de fondo a su hijo, la etiqueta <a>*/
 li {
     /*outline: 1px solid black;*/
     background: #e7e7e5;
 }
-/*Utilizaremos :hover para cambiar el color del backgraund cuando pasa el cursor*/
+/*Utilizaremos la pseudoclase "hover" para cambiar el color del backgraund cuando pasa el cursor*/
 a:hover {
     background: #e0e0d1;
 }
-/*Utilizaremos :active para cambiar el color del backgraund cuando hacemos click*/
+/*Utilizaremos la pseudoclase "active" para cambiar el color del backgraund cuando hacemos click*/
 a:active {
     background: #333;
     color: #fff;
@@ -39,19 +39,19 @@ a {
     padding: 10px;
     padding-left: 20px;     
 }
-/*Con el pseudoclase :first-child le daremos color de fondo solo al primer hijo de la etiueta <li>*/
+/*Con el pseudoclase "first-child" le daremos color de fondo solo al primer hijo de la etiueta <li>*/
 ul li:first-child {
     background: #ffc107;
 }
-/*Con el pseudoclase :first-child le daremos color al texto de la etiqueta <a>*/
+/*Con el pseudoclase "first-child" le daremos color al texto de la etiqueta <a>*/
 ul li:first-child a{
    color: white;
 }
-/*Con el pseudoclase :first-child le daremos color al texto que saldrá al pasar el puntero por ahí*/
+/*Con el pseudoclase "first-child" le daremos color al texto que saldrá al pasar el puntero sobre ella*/
 ul li:first-child a:hover{
     color: black;
 }
-/*Con el pseudoclase :first-child le daremos color al texto que saldrá al hacer click con el puntero*/
+/*Con el pseudoclase "first-child" le daremos color al texto que saldrá al hacer click con el puntero*/
 ul li:first-child a:active {
     color: white;
  }
